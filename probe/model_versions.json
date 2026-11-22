@@ -1,0 +1,18 @@
+{
+ "llama3.2_3b": {
+  "digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+  "options": {
+   "temperature": 0,
+   "seed": 20261120,
+   "num_ctx": 4096
+  }
+ },
+ "qwen2.5_3b": {
+  "digest": "357c53fb659c5076de1d65ccb0b397446227b71a42be9d1603d46168015c9e4b",
+  "options": {
+   "temperature": 0,
+   "seed": 20261120,
+   "num_ctx": 4096
+  }
+ }
+}
