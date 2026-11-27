@@ -2,7 +2,9 @@
 
 Code, aggregate results and validator for:
 
-> Muthu, S. K. (2026). *Can Machines Read the Store? Completeness and Validity of Web Product Data for AI Shopping Agents.* Manuscript submitted to *Electronic Commerce Research*.
+> Muthu, S. K. (2026). *Can Machines Read the Store? Completeness and Validity of Web Product Data for AI Shopping Agents.* Manuscript under review.
+
+To cite this code and data, use the Zenodo DOI shown in the repository's release (see `CITATION.cff`).
 
 The study measures how often schema.org product markup on the public web lets an AI shopping agent answer three questions: what an item costs, whether it's in stock, and exactly which item it is. It uses the Web Data Commons (WDC) schema.org Product subsets for December 2024 and December 2022.
 
@@ -15,6 +17,7 @@ The study measures how often schema.org product markup on the public web lets an
 | `probe/` | The language-model probe: building the 600-record probe set (`../code/build_probe.py`), running it against local models (`run_probe.py`), scoring (`score_probe.py`), per-item scores (`probe_scored.csv`), model digests and settings (`model_versions.json`) and summary results (`probe_results.json`). |
 | `results/` | Per-site aggregate counts for each release (`site_aggregates_*.csv.gz`) and all hypothesis results with intervals (`hypothesis_results.json`). |
 | `scripts/` | `export_aggregates.py`, which produced the released aggregate files, and `reproduce_from_csv.py`, which recomputes the headline numbers from them. |
+| `STUDY_PLAN.md` | The study plan (research questions, hypotheses, pass marks, measures and analyses), locked before the main measurement, with the log of every later change. |
 | `SAMPLING.md` | Every WDC file in the sample, the seeds used to draw them, and the pilot file excluded from the confirmatory sample. |
 
 ## Check your own markup
